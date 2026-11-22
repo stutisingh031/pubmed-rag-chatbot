@@ -1,0 +1,148 @@
+{
+  "metrics": {
+    "answerable_success_rate": 0.4,
+    "unanswerable_refusal_accuracy": 1.0,
+    "refusal_accuracy_all": 0.5714285714285714,
+    "citation_validity": 1.0,
+    "answered_citation_presence_rate": 1.0,
+    "expected_pmid_hit_rate": 1.0,
+    "false_positive_abstention_count": 3,
+    "false_negative_abstention_count": 0
+  },
+  "cases": [
+    {
+      "id": "A1",
+      "answerable": true,
+      "status": "answered",
+      "refusal_correct": true,
+      "citation_validity": true,
+      "expected_pmid_retrieval": true,
+      "unsupported_citation_count": 0,
+      "citation_present": true,
+      "retrieved_pmids": [
+        "7545954",
+        "7939630",
+        "8807330"
+      ],
+      "citations": [
+        "7545954"
+      ],
+      "answer": "According to the 1994 positional-cloning report, the candidate gene for breast and ovarian cancer susceptibility was BRCA1, supported by probable predisposing mutations including an 11-base pair deletion, a 1-base pair insertion, a stop codon, a missense substitution, and an inferred regulatory mutation. [PMID: 7545954]"
+    },
+    {
+      "id": "A2",
+      "answerable": true,
+      "status": "abstained",
+      "refusal_correct": false,
+      "citation_validity": true,
+      "expected_pmid_retrieval": true,
+      "unsupported_citation_count": 0,
+      "citation_present": false,
+      "retrieved_pmids": [
+        "12496474",
+        "20185827",
+        "35300412"
+      ],
+      "citations": [],
+      "answer": "I can’t answer this from the available PubMed abstracts."
+    },
+    {
+      "id": "A3",
+      "answerable": true,
+      "status": "abstained",
+      "refusal_correct": false,
+      "citation_validity": true,
+      "expected_pmid_retrieval": true,
+      "unsupported_citation_count": 0,
+      "citation_present": false,
+      "retrieved_pmids": [
+        "17018160",
+        "33067557",
+        "8807330"
+      ],
+      "citations": [],
+      "answer": "I can’t answer this from the available PubMed abstracts."
+    },
+    {
+      "id": "A4",
+      "answerable": true,
+      "status": "abstained",
+      "refusal_correct": false,
+      "citation_validity": true,
+      "expected_pmid_retrieval": true,
+      "unsupported_citation_count": 0,
+      "citation_present": false,
+      "retrieved_pmids": [
+        "20418484",
+        "35300412",
+        "9333265"
+      ],
+      "citations": [],
+      "answer": "I can’t answer this from the available PubMed abstracts."
+    },
+    {
+      "id": "A5",
+      "answerable": true,
+      "status": "answered",
+      "refusal_correct": true,
+      "citation_validity": true,
+      "expected_pmid_retrieval": true,
+      "unsupported_citation_count": 0,
+      "citation_present": true,
+      "retrieved_pmids": [
+        "34420246",
+        "8807330",
+        "9333265"
+      ],
+      "citations": [
+        "34420246"
+      ],
+      "answer": "In PMID 34420246, the variant rs5820483 (NC_000017.11:g.43095106_43095108dup) was linked to BRCA1 exon 11 splicing and was associated with an increased risk of breast cancer in carriers of BRCA1 pathogenic variants."
+    },
+    {
+      "id": "U1",
+      "answerable": false,
+      "status": "abstained",
+      "refusal_correct": true,
+      "citation_validity": true,
+      "expected_pmid_retrieval": null,
+      "unsupported_citation_count": 0,
+      "citation_present": false,
+      "retrieved_pmids": [
+        "20418484",
+        "35300412",
+        "9333265"
+      ],
+      "citations": [],
+      "answer": "I can’t answer this from the available PubMed abstracts."
+    },
+    {
+      "id": "U2",
+      "answerable": false,
+      "status": "abstained",
+      "refusal_correct": true,
+      "citation_validity": true,
+      "expected_pmid_retrieval": null,
+      "unsupported_citation_count": 0,
+      "citation_present": false,
+      "retrieved_pmids": [
+        "20418484",
+        "35300412",
+        "9333265"
+      ],
+      "citations": [],
+      "answer": "I can’t answer this from the available PubMed abstracts."
+    }
+  ],
+  "ragas": {
+    "status": "unavailable",
+    "scope": "five answerable cases only",
+    "attempted_metrics": [
+      "faithfulness (Qwen2.5 3B local judge)",
+      "answer_similarity (all-MiniLM-L6-v2 local embeddings)"
+    ],
+    "faithfulness_error": "Timed out during structured judgment; the first case exceeded 240 seconds.",
+    "answer_similarity_error": "Did not complete on the CPU-only host and was stopped before a score was produced.",
+    "note": "No RAGAS score is reported. Run python -m backend.evaluate --ragas-only on a faster compatible local setup to retry."
+  }
+}

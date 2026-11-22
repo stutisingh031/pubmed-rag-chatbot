@@ -1,0 +1,5 @@
+{
+  "corpus_sha256": "2ebe3191b6d5deb4cbc51ed7656ea3315876c366a1d3f8c7699703baa3251dba",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "document_count": 20
+}
