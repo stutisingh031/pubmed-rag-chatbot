@@ -1,0 +1,350 @@
+2026-11-22 13:11:13,638 INFO request_id=startup __main__: Saved 20 verified PubMed abstracts to D:\GenAi_coding\Gene–Trait_Research_Assistant\backend\data\pubmed_abstracts.json
+2026-11-22 13:13:51,838 INFO request_id=startup __main__: Saved 20 verified PubMed abstracts to D:\GenAi_coding\Gene–Trait_Research_Assistant\backend\data\pubmed_abstracts.json
+2026-11-22 13:43:59,105 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 13:43:59,112 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 13:43:59,590 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 13:43:59,591 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 13:43:59,592 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 13:43:59,594 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 13:43:59,594 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 13:43:59,619 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 13:45:21,715 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:45:35,278 INFO request_id=startup __main__: Evaluation case A1 status=abstained retrieved=5 citations=0
+2026-11-22 13:46:13,410 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:47:13,705 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 13:47:13,755 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 13:47:15,104 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 13:47:15,108 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 13:47:15,108 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 13:47:15,111 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 13:47:15,112 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 13:47:15,204 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 13:47:20,832 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:47:36,159 INFO request_id=startup __main__: Evaluation case A1 status=answered retrieved=3 citations=1
+2026-11-22 13:47:36,832 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:47:37,312 INFO request_id=startup __main__: Evaluation case A2 status=abstained retrieved=3 citations=0
+2026-11-22 13:48:15,559 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:48:15,980 INFO request_id=startup __main__: Evaluation case A3 status=abstained retrieved=3 citations=0
+2026-11-22 13:48:49,900 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:48:50,466 INFO request_id=startup __main__: Evaluation case A4 status=abstained retrieved=3 citations=0
+2026-11-22 13:49:22,702 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:49:38,958 INFO request_id=startup __main__: Evaluation case A5 status=answered retrieved=3 citations=1
+2026-11-22 13:50:14,316 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:50:15,224 INFO request_id=startup __main__: Evaluation case U1 status=abstained retrieved=3 citations=0
+2026-11-22 13:50:49,172 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:50:49,617 INFO request_id=startup __main__: Evaluation case U2 status=abstained retrieved=3 citations=0
+2026-11-22 13:50:54,379 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 13:50:54,386 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 13:50:54,835 INFO request_id=startup __main__: Evaluation complete; custom_metrics={'answerable_success_rate': 0.4, 'unanswerable_refusal_accuracy': 1.0, 'refusal_accuracy_all': 0.5714285714285714, 'citation_validity': 1.0, 'answered_citation_presence_rate': 1.0, 'expected_pmid_hit_rate': 0.8, 'false_positive_abstention_count': 3, 'false_negative_abstention_count': 0} ragas_status=unavailable
+2026-11-22 13:52:44,411 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 13:52:44,432 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 13:52:45,045 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 13:52:45,045 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 13:52:45,053 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 13:52:45,055 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 13:52:45,056 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 13:52:45,133 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 13:52:50,388 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:53:05,498 INFO request_id=startup __main__: Evaluation case A1 status=answered retrieved=3 citations=1
+2026-11-22 13:53:23,065 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:53:37,064 INFO request_id=startup __main__: Evaluation case A2 status=abstained retrieved=3 citations=0
+2026-11-22 13:53:37,792 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:53:38,349 INFO request_id=startup __main__: Evaluation case A3 status=abstained retrieved=3 citations=0
+2026-11-22 13:53:39,159 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:53:39,846 INFO request_id=startup __main__: Evaluation case A4 status=abstained retrieved=3 citations=0
+2026-11-22 13:53:40,475 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:53:54,465 INFO request_id=startup __main__: Evaluation case A5 status=answered retrieved=3 citations=1
+2026-11-22 13:53:55,131 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:53:55,595 INFO request_id=startup __main__: Evaluation case U1 status=abstained retrieved=3 citations=0
+2026-11-22 13:53:56,017 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 13:53:56,514 INFO request_id=startup __main__: Evaluation case U2 status=abstained retrieved=3 citations=0
+2026-11-22 13:54:00,184 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 13:54:00,189 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 13:54:00,476 INFO request_id=startup __main__: Evaluation complete; custom_metrics={'answerable_success_rate': 0.4, 'unanswerable_refusal_accuracy': 1.0, 'refusal_accuracy_all': 0.5714285714285714, 'citation_validity': 1.0, 'answered_citation_presence_rate': 1.0, 'expected_pmid_hit_rate': 1.0, 'false_positive_abstention_count': 3, 'false_negative_abstention_count': 0} ragas_status=unavailable
+2026-11-22 14:02:41,847 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 14:03:59,538 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 14:05:31,587 INFO request_id=startup httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 14:06:34,431 ERROR request_id=startup __main__: RAGAS local judge failed
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\metrics\_faithfulness.py", line 200, in _single_turn_ascore
+    return await self._ascore(row, callbacks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\metrics\_faithfulness.py", line 213, in _ascore
+    verdicts = await self._create_verdicts(row, statements, callbacks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\metrics\_faithfulness.py", line 158, in _create_verdicts
+    verdicts = await self.nli_statements_prompt.generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\prompt\pydantic_prompt.py", line 177, in generate
+    output_single = await self.generate_multiple(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\prompt\pydantic_prompt.py", line 322, in generate_multiple
+    answer = await parser.parse_output_string(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\prompt\pydantic_prompt.py", line 545, in parse_output_string
+    fixed_output_string = await fix_output_format_prompt.generate(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\prompt\pydantic_prompt.py", line 322, in generate_multiple
+    answer = await parser.parse_output_string(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\prompt\pydantic_prompt.py", line 545, in parse_output_string
+    fixed_output_string = await fix_output_format_prompt.generate(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\llms\base.py", line 316, in agenerate_text
+    result = await self.langchain_llm.agenerate_prompt(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1931, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1851, in agenerate
+    results = await asyncio.gather(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2222, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_ollama\chat_models.py", line 1388, in _agenerate
+    final_chunk = await self._achat_stream_with_aggregation(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_ollama\chat_models.py", line 1161, in _achat_stream_with_aggregation
+    async for chunk in self._aiterate_over_stream(messages, stop, **kwargs):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_ollama\chat_models.py", line 1306, in _aiterate_over_stream
+    async for stream_resp in self._acreate_chat_stream(messages, stop, **kwargs):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_ollama\chat_models.py", line 1102, in _acreate_chat_stream
+    async for part in await self._async_client.chat(**chat_params):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ollama\_client.py", line 804, in inner
+    async with self._client.stream(*args, **kwargs) as r:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1583, in stream
+    response = await self.send(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\anyio.py", line 35, in read
+    return await self._stream.receive(max_bytes=max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 1407, in receive
+    await self._protocol.read_event.wait()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\GenAi_coding\Gene–Trait_Research_Assistant\backend\evaluate.py", line 55, in run_ragas_only
+    saved["ragas"] = run_ragas(cases,saved["cases"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAi_coding\Gene–Trait_Research_Assistant\backend\evaluate.py", line 46, in run_ragas
+    result = ragas_evaluate(Dataset.from_list(rows),metrics=metrics,llm=local_llm,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\_analytics.py", line 278, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\evaluation.py", line 484, in evaluate
+    return run(_async_wrapper())
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\async_utils.py", line 156, in run
+    return asyncio.run(coro)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\evaluation.py", line 457, in _async_wrapper
+    return await aevaluate(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\evaluation.py", line 311, in aevaluate
+    raise e
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\evaluation.py", line 287, in aevaluate
+    results = await executor.aresults()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\executor.py", line 200, in aresults
+    results = await self._process_jobs()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\executor.py", line 131, in _process_jobs
+    await self._process_coroutines(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\executor.py", line 189, in _process_coroutines
+    raise result
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\async_utils.py", line 114, in process_futures
+    result = await future
+             ^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 615, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\async_utils.py", line 77, in sema_coro
+    return await coro
+           ^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\executor.py", line 73, in wrapped_callable_async
+    raise e
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\executor.py", line 69, in wrapped_callable_async
+    result = await callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\metrics\base.py", line 488, in single_turn_ascore
+    raise e
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\ragas\metrics\base.py", line 481, in single_turn_ascore
+    score = await asyncio.wait_for(
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+2026-11-22 14:10:13,262 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 14:10:13,269 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 14:14:34,536 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 14:14:34,548 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 14:21:35,271 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 14:21:35,299 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 14:21:35,871 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 14:21:35,871 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 14:21:35,871 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 14:21:35,871 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 14:21:35,871 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 14:21:35,989 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 14:23:30,685 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 14:23:30,685 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 14:23:31,180 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 14:23:31,181 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 14:23:31,182 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 14:23:31,184 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 14:23:31,184 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 14:23:31,214 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 14:23:32,070 INFO request_id=startup backend.main: Application started
+2026-11-22 14:23:54,213 INFO request_id=e4ebfcfa651b49deb55b2077dc2a3d9b backend.main: GET /api/health status=200 duration_ms=1638.0
+2026-11-22 14:25:07,499 INFO request_id=59e984e0cd454394a566eab7c8282520 httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 14:25:22,182 INFO request_id=59e984e0cd454394a566eab7c8282520 backend.main: chat status=answered retrieved=3 citations=1 duration_ms=74970.7
+2026-11-22 14:25:22,198 INFO request_id=59e984e0cd454394a566eab7c8282520 backend.main: POST /api/chat status=200 duration_ms=74989.8
+2026-11-22 14:49:06,361 INFO request_id=startup __main__: PubMed corpus unchanged (20 records); kept existing snapshot
+2026-11-22 14:51:45,428 INFO request_id=startup httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-22 14:51:45,442 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 14:51:46,019 INFO request_id=startup httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-22 14:51:46,255 INFO request_id=startup httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-22 14:51:46,561 INFO request_id=startup httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-22 14:51:46,561 WARNING request_id=startup huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-22 14:51:46,569 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 14:51:46,571 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 14:51:46,571 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 14:51:46,573 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 14:51:46,574 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 14:51:46,607 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 14:51:47,349 INFO request_id=startup backend.main: Application started
+2026-11-22 14:54:26,782 INFO request_id=2a2f09ef45024637b2ec66b182dae546 backend.main: GET /api/corpus status=200 duration_ms=22.9
+2026-11-22 14:54:28,401 INFO request_id=9d903b979cf149f9bae9e4a81cf932a5 backend.main: GET /api/health status=200 duration_ms=1655.4
+2026-11-22 14:55:21,280 INFO request_id=e170ee0724394fe2af0c7034e44e3328 backend.main: OPTIONS /api/chat status=200 duration_ms=3.5
+2026-11-22 14:55:51,720 INFO request_id=57aaa940d7d74fb18c3b2dd20a866c04 httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 14:55:59,092 INFO request_id=57aaa940d7d74fb18c3b2dd20a866c04 backend.main: chat status=answered retrieved=3 citations=1 duration_ms=37792.8
+2026-11-22 14:55:59,112 INFO request_id=57aaa940d7d74fb18c3b2dd20a866c04 backend.main: POST /api/chat status=200 duration_ms=37821.4
+2026-11-22 15:00:11,703 INFO request_id=b737b2f7185448cfa39068f239cefc4a backend.main: GET /api/corpus status=200 duration_ms=128.0
+2026-11-22 15:00:13,491 INFO request_id=e9b934cc9caf4ce4a5aec9b17bf9b66b backend.main: GET /api/health status=200 duration_ms=1968.9
+2026-11-22 15:01:51,020 INFO request_id=0544c09522f649cbae3f344c62014a6a backend.main: GET /api/corpus status=200 duration_ms=31.8
+2026-11-22 15:01:52,639 INFO request_id=b6bf6bf0996e4a3192dd38f88b37e43d backend.main: GET /api/health status=200 duration_ms=1657.2
+2026-11-22 15:06:12,117 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 15:06:12,128 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 15:06:13,464 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 15:06:13,466 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 15:06:13,466 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 15:06:13,471 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 15:06:13,473 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 15:06:13,622 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 15:06:16,280 INFO request_id=startup backend.main: Application started
+2026-11-22 15:06:16,286 INFO request_id=startup backend.main: Application stopped
+2026-11-22 15:08:58,891 INFO request_id=b186cce6ddd0434aa850e7714be0bd25 backend.main: GET /api/health status=200 duration_ms=1663.5
+2026-11-22 15:10:51,188 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 15:10:51,201 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 15:10:52,151 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 15:10:52,153 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 15:10:52,154 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 15:10:52,154 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 15:10:52,158 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 15:10:52,298 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 15:10:53,577 INFO request_id=startup backend.main: Application started
+2026-11-22 15:11:17,488 INFO request_id=40bc0ca5a78b4824ba1e138c420635e4 backend.main: GET /api/health status=200 duration_ms=1644.7
+2026-11-22 15:20:26,397 INFO request_id=d654149e91604cc4b9f424e1b9a4c235 backend.main: GET /api/corpus status=200 duration_ms=1581.0
+2026-11-22 15:20:28,008 INFO request_id=d1ecbd4e9bbb482bb98aaa77bfa6416b backend.main: GET /api/health status=200 duration_ms=3513.6
+2026-11-22 15:20:42,616 INFO request_id=34ea92de59e44c2aab335dc3a080c18a backend.main: OPTIONS /api/chat status=200 duration_ms=4.8
+2026-11-22 15:20:43,132 INFO request_id=565b7d24cb3b4ff7b80da8c9a4c066ca backend.main: chat status=abstained retrieved=0 citations=0 duration_ms=480.8
+2026-11-22 15:20:43,135 INFO request_id=565b7d24cb3b4ff7b80da8c9a4c066ca backend.main: POST /api/chat status=200 duration_ms=512.7
+2026-11-22 15:23:30,625 WARNING request_id=startup huggingface_hub.hf_api: Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+2026-11-22 15:23:30,631 INFO request_id=startup sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-22 15:23:31,308 INFO request_id=startup faiss.loader: Loading faiss with AVX512 support.
+2026-11-22 15:23:31,308 INFO request_id=startup faiss.loader: Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-11-22 15:23:31,308 INFO request_id=startup faiss.loader: Loading faiss with AVX2 support.
+2026-11-22 15:23:31,319 INFO request_id=startup faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-22 15:23:31,320 INFO request_id=startup faiss.loader: Loading faiss.
+2026-11-22 15:23:31,454 INFO request_id=startup faiss.loader: Successfully loaded faiss.
+2026-11-22 15:23:32,719 INFO request_id=startup backend.main: Application started
+2026-11-22 15:24:06,146 INFO request_id=c46d1bc277d64968877a8a47d023c843 backend.main: GET /api/corpus status=200 duration_ms=45.8
+2026-11-22 15:24:07,780 INFO request_id=16935e83bdbf415b941247f134fe477a backend.main: GET /api/health status=200 duration_ms=1686.4
+2026-11-22 15:25:41,359 INFO request_id=1a9a81157c724e8ab6c15bd28a51e0f1 backend.main: GET /api/health status=200 duration_ms=1617.8
+2026-11-22 15:26:16,377 INFO request_id=1cc6fb6a466649d8b7c94acdccd73651 backend.main: chat status=abstained retrieved=0 citations=0 duration_ms=267.8
+2026-11-22 15:26:16,380 INFO request_id=1cc6fb6a466649d8b7c94acdccd73651 backend.main: POST /api/chat status=200 duration_ms=277.5
+2026-11-22 15:27:33,407 INFO request_id=28ab7b9e03ac4474ab51f89e49f76884 backend.main: GET /api/corpus status=200 duration_ms=32.4
+2026-11-22 15:27:34,994 INFO request_id=5581e207dfcf4662b02a2649dcfbabca backend.main: GET /api/health status=200 duration_ms=1632.7
+2026-11-22 15:39:50,696 INFO request_id=d77b29dd6ee94d47bf80c668ab455bbc backend.main: GET /api/corpus status=200 duration_ms=91.5
+2026-11-22 15:39:52,783 INFO request_id=74b90b245cac44d4b7267cc2a8e45ce0 backend.main: GET /api/health status=200 duration_ms=2201.3

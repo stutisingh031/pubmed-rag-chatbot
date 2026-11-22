@@ -1,0 +1,51 @@
+[
+  {
+    "id": "A1",
+    "answerable": true,
+    "question": "According to the 1994 positional-cloning report, what candidate gene and mutation evidence supported breast and ovarian cancer susceptibility?",
+    "reference_answer": "Positional cloning identified BRCA1 on 17q, and probable predisposing mutations were found in five of eight kindreds presumed to segregate BRCA1 susceptibility alleles. The early report described several mutation types and expression in breast and ovary.",
+    "expected_pmids": ["7545954"]
+  },
+  {
+    "id": "A2",
+    "answerable": true,
+    "question": "Which base excision repair enzymes were stimulated by BRCA1 in breast carcinoma cells, and which transcription factor was required?",
+    "reference_answer": "In human breast carcinoma cells, BRCA1 stimulated OGG1, NTH1, and REF1/APE1 activity and expression; OCT1 was required for the reported stimulation of their expression and NTH1 promoter activity.",
+    "expected_pmids": ["20185827"]
+  },
+  {
+    "id": "A3",
+    "answerable": true,
+    "question": "What mutation frequency was reported among the 204 Northern India breast cancer patients?",
+    "reference_answer": "The study analyzed 204 breast cancer cases and reported pathogenic BRCA1/2 mutations in 6 of 204 patients (2.9%).",
+    "expected_pmids": ["17018160"]
+  },
+  {
+    "id": "A4",
+    "answerable": true,
+    "question": "In PMID 20418484, what were the two strongest BRCA1-carrier breast cancer risk signals and their hazard ratios?",
+    "reference_answer": "The strongest BRCA1-carrier associations were rs6138178 in SNRPB (HR 0.78, lower risk) and rs6602595 in CAMK1D (HR 1.25, higher risk).",
+    "expected_pmids": ["20418484"]
+  },
+  {
+    "id": "A5",
+    "answerable": true,
+    "question": "In PMID 34420246, which variant was linked to BRCA1 exon 11 splicing and what cancer-risk association was observed?",
+    "reference_answer": "The intron 10 variant rs5820483 was associated with BRCA1 exon 11 isoform expression and alternative splicing and with breast cancer risk, but not ovarian cancer risk, in BRCA1 pathogenic-variant carriers.",
+    "expected_pmids": ["34420246"]
+  },
+  {
+    "id": "U1",
+    "answerable": false,
+    "question": "What screening schedule should a 35-year-old BRCA1 carrier follow to prevent breast cancer?",
+    "reference_answer": "The available abstracts do not establish an age-specific screening schedule or preventive clinical recommendation.",
+    "expected_pmids": []
+  },
+  {
+    "id": "U2",
+    "answerable": false,
+    "question": "Which lifestyle change reduces breast cancer risk by the greatest percentage for BRCA1 carriers?",
+    "reference_answer": "The available abstracts do not compare lifestyle interventions or quantify their effects on risk for BRCA1 carriers.",
+    "expected_pmids": []
+  }
+]
